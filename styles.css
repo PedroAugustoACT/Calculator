@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-color: black;
+    background-image: linear-gradient(45deg, transparent, rgba(128, 128, 128, 0.4));
+    height: 100vh;
+    text-align: center;
+}
+.txtMain{
+    color: white;
+    font-family: Zen Kaku Gothic Antique;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.calculatorBox{
+    position: absolute;
+    background-color: rgb(235, 235, 235);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 10px;
+}
+.txtResult{
+    color: black;
+    font-family: Zen Kaku Gothic Antique;
+}
+.txtResult{
+    background-color: black;
+    height: 50px;
+    margin: 5px;
+    font-size: 27px;
+    color: white;
+    text-align: right;
+    padding: 5px;
+}
+.buttonMain{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31,31);
+    border: none;
+    color: white;
+    margin: 3px;
+}
+.buttonMain:hover{
+    background-color: black;
+}
+.buttonEqual{
+    width: 50px;
+    height: 106px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(36, 116, 36);
+    border: none;
+    color: white;
+    margin: 3px;
+}
+.buttonEqual:hover{
+    background-color: rgb(1, 182, 1) ;
+}
+.buttonZero{
+    width: 109px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31,31);
+    border: none;
+    color: white;
+    margin: 3px;
+}
+.buttonZero:hover{
+    background-color: black;
+}
+.buttonC{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(167, 5, 5);
+    border: none;
+    color: white;
+    margin: 3px;
+}
+.buttonC:hover{
+    background-color: red;
+}
+.foot{
+    text-align: center;
+    color:honeydew ;
+    font-family: 'Zen Kaku Gothic Antique';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
